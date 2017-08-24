@@ -48,10 +48,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl:system/usr/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl
 
-# Libshims
+# Shims
 PRODUCT_PACKAGES += \
     libshims_ims \
-    libshims_get_process_name
+    libshims_get_process_name \
+    rild_socket
 
 # Ramdisk
 PRODUCT_PACKAGES += \
