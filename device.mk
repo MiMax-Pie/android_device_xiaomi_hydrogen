@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshims_ims \
     libshims_get_process_name \
     rild_socket
 
